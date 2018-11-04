@@ -1,4 +1,4 @@
-package starter;
+package caffeinate_me;
 
 import cucumber.api.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;

@@ -1,6 +1,6 @@
 # Serenity Cucumber Starter project
 
-[![CircleCI](https://circleci.com/gh/serenity-bdd/serenity-cucumber-starter.svg?style=svg)](https://circleci.com/gh/serenity-bdd/serenity-cucumber-starter)
+[![CircleCI](https://circleci.com/gh/serenity-bdd/serenity-cucumber-caffeinate_me.svg?style=svg)](https://circleci.com/gh/serenity-bdd/serenity-cucumber-caffeinate_me)
 
 
 This is the simplest possible build script setup for Cucumber using Java. 
@@ -15,11 +15,11 @@ There is a single feature file with one scenario. The scenario has three steps, 
 
 Git:
 
-    git clone https://github.com/serenity-bdd/serenity-cucumber-starter.git
-    cd serenity-cucumber-starter
+    git clone https://github.com/serenity-bdd/serenity-cucumber-caffeinate_me.git
+    cd serenity-cucumber-caffeinate_me
 
 
-Or simply [download a zip](https://github.com/serenity-bdd/serenity-cucumber-starter/archive/master.zip) file.
+Or simply [download a zip](https://github.com/serenity-bdd/serenity-cucumber-caffeinate_me/archive/master.zip) file.
 
 ## Use Maven
 
