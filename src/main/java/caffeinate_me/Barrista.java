@@ -1,7 +1,12 @@
 package caffeinate_me;
 
+import net.thucydides.core.annotations.Step;
+
 import java.util.ArrayList;
 import java.util.List;
+
+import static org.assertj.core.api.Assertions.assertThat;
+
 
 public class Barrista {
     public List<String> getPendingOrders() {
@@ -16,5 +21,8 @@ public class Barrista {
         return results;
     }
 
-
+    @Step
+    public void shouldHaveAPendingOrderFor(String someOrder) {
+        assertThat(getPendingOrders()).contains(someOrder);
+    }
 }
